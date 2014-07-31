@@ -34,7 +34,7 @@
     float: left;
     width:-moz-calc(50% - 17px);
     width:-webkit-calc(50% - 17px);
-    width:calc((50% - 17px))/2;
+    width:calc((50% - 17px));
     height: 100%;
     text-decoration: none;
 }
