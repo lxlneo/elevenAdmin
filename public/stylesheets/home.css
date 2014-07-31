@@ -1,0 +1,50 @@
+.box{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    min-width: 640px;
+    max-width: 640px;
+    height: 100%;
+    min-height: 1136px;
+    background-image: url("../images/bg.png");
+    background-size: 100% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.app{
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    height:500px;
+    background: url("../images/icon-1.png") no-repeat 100% 100%;
+}
+.buttons{
+    display: block;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    height:160px;
+    bottom: 210px;
+    border: 0px solid red;
+}
+.buttons .down{
+    display: block;
+    float: left;
+    width:-moz-calc(50% - 17px);
+    width:-webkit-calc(50% - 17px);
+    width:calc((50% - 17px))/2;
+    height: 100%;
+    text-decoration: none;
+}
+.buttons .ios{
+    background:url("../images/ios.png") no-repeat;
+    background-size:100% 100%;
+}
+.buttons .and{
+    background:url("../images/and.png") no-repeat;
+    background-size:100% 100%;
+    margin-left: 34px;
+}
